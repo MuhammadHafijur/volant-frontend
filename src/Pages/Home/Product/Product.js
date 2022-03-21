@@ -257,18 +257,141 @@ const Product = () => {
               <h6 className="pt-4 font-semibold">
                 Pick three or more 100% pure scents
               </h6>
-              <div className="bg-gray-200">
+              {/* <div className="bg-gray-200 rounded-lg">
                 <div className="flex  mt-2   rounded-lg">
                   <div className="">
-                    <img className="mr-4 my-4 " src={energy} alt="" />
+                    <img className="px-2 mr-2 mt-4" src={energy} alt="" />
                   </div>
-                  <div className="grid grid-cols-2 py-2 px-2 ">
+                  <div className="flex px-2 ">
+                    <div className="my-2">
+                      <h1>Energy Blend (15 ml)</h1>
+                      <h4>250 hours of aroma</h4>
+                    </div>
+                    <div className=" my-4 pt-1">
+                      <div className="flex justify-around">
+                        <div className=" mr-2">
+                          <h1 style={{ color: "#6F6F6F" }}>
+                            <strike>25 €</strike>{" "}
+                            <span style={{ color: "#DEAB5B" }}>20 €</span>
+                          </h1>
+                        </div>
+                        <div className="flex">
+                          <h1>Added</h1>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-8 w-8"
+                            viewBox="0 0 20 20"
+                            fill="rgba(222, 171, 91, 0.5)"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                              clip-rule="evenodd"
+                            />
+                          </svg>
+                        </div>
+                        <div className="flex items-center">
+                          <button className="bg-white rounded mr-2">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              className="h-5 w-5"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                              strokeWidth={2}
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M20 12H4"
+                              />
+                            </svg>
+                          </button>
+                          <button className="bg-white rounded-lg px-4 mr-2">
+                            1
+                          </button>
+                          <button className="bg-white rounded">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              className="h-5 w-5"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                              strokeWidth={2}
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M12 4v16m8-8H4"
+                              />
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="">
+                  <details className="pb-1 -mt-4 pl-20 w-full ">
+                    <summary>Info</summary>
+                    <div className="grid grid-cols-2">
+                      <div className="">
+                        <p className="mb-2">
+                          “Relax has become my absolute favorite in a hectic
+                          everyday life! Lovely fragrance that provides a
+                          comfortable and relaxing atmosphere in my small house
+                          apartment.” - Theres B.
+                        </p>
+                        <h1 className="text-xl font-bold">
+                          Best use cases for Relax:
+                        </h1>
+                        <div className="px-2">
+                          <li>
+                            In the living room after a long day when you need to
+                            wind down.
+                          </li>
+                          <li>During challenging moments to redusce stress</li>
+                          <li>Before wine and dine with family and friends</li>
+                        </div>
+                      </div>
+                      <div className="">
+                        <h1>Ingredients:</h1>
+                        <div className="grid grid-cols-2 gap-8">
+                          <div className="flex">
+                            <img src={ylan} alt="" />
+                            <h1>Ylan Ylang Sweeet</h1>
+                          </div>
+                          <div className="flex">
+                            <img src={ylan} alt="" />
+                            <h1>Ylan Ylang Sweeet</h1>
+                          </div>
+                          <div className="flex">
+                            <img src={ylan} alt="" />
+                            <h1>Ylan Ylang Sweeet</h1>
+                          </div>
+                          <div className="flex">
+                            <img src={ylan} alt="" />
+                            <h1>Ylan Ylang Sweeet</h1>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </details>
+                </div>
+              </div> */}
+              <div className="bg-gray-200 rounded-lg">
+                <div className="grid grid-cols-1 md:grid-cols-2 bg-gray-200 mt-8 rounded-lg">
+                  <div className="flex py-2 px-4 ">
+                    <div className="">
+                      <img className="mr-4 my-3" src={energy} alt="" />
+                    </div>
                     <div className="">
                       <h1>Energy Blend (15 ml)</h1>
                       <h4>250 hours of aroma</h4>
                     </div>
                   </div>
-                  <div className="py-8">
+
+                  <div className="my-6 pr-2">
                     <div className="flex justify-around">
                       <div className=" mr-2">
                         <h1 style={{ color: "#6F6F6F" }}>
@@ -331,433 +454,533 @@ const Product = () => {
                     </div>
                   </div>
                 </div>
-                <div className="grid grid-cols-2">
-                  <div className="">
-                    <details className="pb-1 px-12 w-full ">
-                      <summary>Info</summary>
-                      <div className="grid grid-cols-2">
-                        <div className="">
-                          <p className="mb-2">
-                            “Relax has become my absolute favorite in a hectic
-                            everyday life! Lovely fragrance that provides a
-                            comfortable and relaxing atmosphere in my small
-                            house apartment.” - Theres B.
-                          </p>
-                          <h1 className="text-xl font-bold">
-                            Best use cases for Relax:
-                          </h1>
-                          <div className="px-2">
-                            <li>
-                              In the living room after a long day when you need
-                              to wind down.
-                            </li>
-                            <li>
-                              During challenging moments to redusce stress
-                            </li>
-                            <li>
-                              Before wine and dine with family and friends
-                            </li>
-                          </div>
+                <details className="pb-1 -mt-4 pl-20 w-full ">
+                  <summary>Info</summary>
+                  <div className="grid grid-cols-2">
+                    <div className="">
+                      <p className="mb-2">
+                        “Relax has become my absolute favorite in a hectic
+                        everyday life! Lovely fragrance that provides a
+                        comfortable and relaxing atmosphere in my small house
+                        apartment.” - Theres B.
+                      </p>
+                      <h1 className="text-xl font-bold">
+                        Best use cases for Relax:
+                      </h1>
+                      <div className="px-2">
+                        <li>
+                          In the living room after a long day when you need to
+                          wind down.
+                        </li>
+                        <li>During challenging moments to redusce stress</li>
+                        <li>Before wine and dine with family and friends</li>
+                      </div>
+                    </div>
+                    <div className="">
+                      <h1>Ingredients:</h1>
+                      <div className="grid grid-cols-2 gap-2">
+                        <div className="flex">
+                          <img src={ylan} alt="" />
+                          <h1>Ylan Ylang Sweeet</h1>
                         </div>
-                        <div className="">
-                          <h1>Ingredients:</h1>
-                          <div className="grid grid-cols-2">
-                            <div className="flex">
-                              <img src={ylan} alt="" />
-                              <h1>Ylan Ylang Sweeet</h1>
-                            </div>
-                            <div className="flex">
-                              <img src={ylan} alt="" />
-                              <h1>Ylan Ylang Sweeet</h1>
-                            </div>
-                            <div className="flex">
-                              <img src={ylan} alt="" />
-                              <h1>Ylan Ylang Sweeet</h1>
-                            </div>
-                            <div className="flex">
-                              <img src={ylan} alt="" />
-                              <h1>Ylan Ylang Sweeet</h1>
-                            </div>
-                          </div>
+                        <div className="flex">
+                          <img src={ylan} alt="" />
+                          <h1>Ylan Ylang Sweeet</h1>
+                        </div>
+                        <div className="flex">
+                          <img src={ylan} alt="" />
+                          <h1>Ylan Ylang Sweeet</h1>
+                        </div>
+                        <div className="flex">
+                          <img src={ylan} alt="" />
+                          <h1>Ylan Ylang Sweeet</h1>
                         </div>
                       </div>
-                    </details>
-                  </div>
-                </div>
-              </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 bg-gray-200 mt-8 rounded-lg">
-                <div className="flex py-2 px-4 ">
-                  <div className="">
-                    <img className="mr-4" src={energy} alt="" />
-                  </div>
-                  <div className="">
-                    <h1>Energy Blend (15 ml)</h1>
-                    <h4>250 hours of aroma</h4>
-                  </div>
-                </div>
-
-                <div className="">
-                  <div className="flex justify-around">
-                    <div className=" mr-2">
-                      <h1 style={{ color: "#6F6F6F" }}>
-                        <strike>25 €</strike>{" "}
-                        <span style={{ color: "#DEAB5B" }}>20 €</span>
-                      </h1>
                     </div>
-                    <div className="flex">
-                      <h1>Added</h1>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-8 w-8"
-                        viewBox="0 0 20 20"
-                        fill="rgba(222, 171, 91, 0.5)"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                          clip-rule="evenodd"
-                        />
-                      </svg>
-                    </div>
-                    <div className="flex items-center">
-                      <button className="bg-white rounded mr-2">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="h-5 w-5"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          strokeWidth={2}
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M20 12H4"
-                          />
-                        </svg>
-                      </button>
-                      <button className="bg-white rounded-lg px-4 mr-2">
-                        1
-                      </button>
-                      <button className="bg-white rounded">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="h-5 w-5"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          strokeWidth={2}
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M12 4v16m8-8H4"
-                          />
-                        </svg>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-                <details className="-mt-2 ml-4 md:ml-20 pb-1">
-                  <summary>Info</summary>
-                  <p className="mb-2">
-                    “Relax has become my absolute favorite in a hectic everyday
-                    life! Lovely fragrance that provides a comfortable and
-                    relaxing atmosphere in my small house apartment.” - Theres
-                    B.
-                  </p>
-                  <h1 className="text-xl font-bold">
-                    Best use cases for Relax:
-                  </h1>
-                  <div className="px-2">
-                    <li>
-                      In the living room after a long day when you need to wind
-                      down.
-                    </li>
-                    <li>During challenging moments to redusce stress</li>
-                    <li>Before wine and dine with family and friends</li>
                   </div>
                 </details>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 bg-gray-200 mt-8 rounded-lg">
-                <div className="flex py-2 px-4 ">
-                  <div className="">
-                    <img className="mr-4" src={energy} alt="" />
+              <div className="bg-gray-200 rounded-lg">
+                <div className="grid grid-cols-1 md:grid-cols-2 bg-gray-200 mt-8 rounded-lg">
+                  <div className="flex py-2 px-4 ">
+                    <div className="">
+                      <img className="mr-4 my-3" src={energy} alt="" />
+                    </div>
+                    <div className="">
+                      <h1>Energy Blend (15 ml)</h1>
+                      <h4>250 hours of aroma</h4>
+                    </div>
                   </div>
-                  <div className="">
-                    <h1>Energy Blend (15 ml)</h1>
-                    <h4>250 hours of aroma</h4>
-                  </div>
-                </div>
 
-                <div className="">
-                  <div className="flex justify-around">
-                    <div className=" mr-2">
-                      <h1 style={{ color: "#6F6F6F" }}>
-                        <strike>25 €</strike>{" "}
-                        <span style={{ color: "#DEAB5B" }}>20 €</span>
-                      </h1>
-                    </div>
-                    <div className="flex">
-                      <h1>Added</h1>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-8 w-8"
-                        viewBox="0 0 20 20"
-                        fill="rgba(222, 171, 91, 0.5)"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                          clip-rule="evenodd"
-                        />
-                      </svg>
-                    </div>
-                    <div className="flex items-center">
-                      <button className="bg-white rounded mr-2">
+                  <div className="my-6 pr-2">
+                    <div className="flex justify-around">
+                      <div className=" mr-2">
+                        <h1 style={{ color: "#6F6F6F" }}>
+                          <strike>25 €</strike>{" "}
+                          <span style={{ color: "#DEAB5B" }}>20 €</span>
+                        </h1>
+                      </div>
+                      <div className="flex">
+                        <h1>Added</h1>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="h-5 w-5"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          strokeWidth={2}
+                          class="h-8 w-8"
+                          viewBox="0 0 20 20"
+                          fill="rgba(222, 171, 91, 0.5)"
                         >
                           <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M20 12H4"
+                            fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clip-rule="evenodd"
                           />
                         </svg>
-                      </button>
-                      <button className="bg-white rounded-lg px-4 mr-2">
-                        1
-                      </button>
-                      <button className="bg-white rounded">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="h-5 w-5"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          strokeWidth={2}
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M12 4v16m8-8H4"
-                          />
-                        </svg>
-                      </button>
+                      </div>
+                      <div className="flex items-center">
+                        <button className="bg-white rounded mr-2">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M20 12H4"
+                            />
+                          </svg>
+                        </button>
+                        <button className="bg-white rounded-lg px-4 mr-2">
+                          1
+                        </button>
+                        <button className="bg-white rounded">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M12 4v16m8-8H4"
+                            />
+                          </svg>
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <details className="-mt-2 ml-4 md:ml-20 pb-1">
+                <details className="pb-1 -mt-4 pl-20 w-full ">
                   <summary>Info</summary>
-                  <p className="mb-2">
-                    “Relax has become my absolute favorite in a hectic everyday
-                    life! Lovely fragrance that provides a comfortable and
-                    relaxing atmosphere in my small house apartment.” - Theres
-                    B.
-                  </p>
-                  <h1 className="text-xl font-bold">
-                    Best use cases for Relax:
-                  </h1>
-                  <div className="px-2">
-                    <li>
-                      In the living room after a long day when you need to wind
-                      down.
-                    </li>
-                    <li>During challenging moments to redusce stress</li>
-                    <li>Before wine and dine with family and friends</li>
+                  <div className="grid grid-cols-2">
+                    <div className="">
+                      <p className="mb-2">
+                        “Relax has become my absolute favorite in a hectic
+                        everyday life! Lovely fragrance that provides a
+                        comfortable and relaxing atmosphere in my small house
+                        apartment.” - Theres B.
+                      </p>
+                      <h1 className="text-xl font-bold">
+                        Best use cases for Relax:
+                      </h1>
+                      <div className="px-2">
+                        <li>
+                          In the living room after a long day when you need to
+                          wind down.
+                        </li>
+                        <li>During challenging moments to redusce stress</li>
+                        <li>Before wine and dine with family and friends</li>
+                      </div>
+                    </div>
+                    <div className="">
+                      <h1>Ingredients:</h1>
+                      <div className="grid grid-cols-2 gap-2">
+                        <div className="flex">
+                          <img src={ylan} alt="" />
+                          <h1>Ylan Ylang Sweeet</h1>
+                        </div>
+                        <div className="flex">
+                          <img src={ylan} alt="" />
+                          <h1>Ylan Ylang Sweeet</h1>
+                        </div>
+                        <div className="flex">
+                          <img src={ylan} alt="" />
+                          <h1>Ylan Ylang Sweeet</h1>
+                        </div>
+                        <div className="flex">
+                          <img src={ylan} alt="" />
+                          <h1>Ylan Ylang Sweeet</h1>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </details>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 bg-gray-200 mt-8 rounded-lg">
-                <div className="flex py-2 px-4 ">
-                  <div className="">
-                    <img className="mr-4" src={energy} alt="" />
+              <div className="bg-gray-200 rounded-lg">
+                <div className="grid grid-cols-1 md:grid-cols-2 bg-gray-200 mt-8 rounded-lg">
+                  <div className="flex py-2 px-4 ">
+                    <div className="">
+                      <img className="mr-4 my-3" src={energy} alt="" />
+                    </div>
+                    <div className="">
+                      <h1>Energy Blend (15 ml)</h1>
+                      <h4>250 hours of aroma</h4>
+                    </div>
                   </div>
-                  <div className="">
-                    <h1>Energy Blend (15 ml)</h1>
-                    <h4>250 hours of aroma</h4>
-                  </div>
-                </div>
 
-                <div className="">
-                  <div className="flex justify-around">
-                    <div className=" mr-2">
-                      <h1 style={{ color: "#6F6F6F" }}>
-                        <strike>25 €</strike>{" "}
-                        <span style={{ color: "#DEAB5B" }}>20 €</span>
-                      </h1>
-                    </div>
-                    <div className="flex">
-                      <h1>Added</h1>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-8 w-8"
-                        viewBox="0 0 20 20"
-                        fill="rgba(222, 171, 91, 0.5)"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                          clip-rule="evenodd"
-                        />
-                      </svg>
-                    </div>
-                    <div className="flex items-center">
-                      <button className="bg-white rounded mr-2">
+                  <div className="my-6 pr-2">
+                    <div className="flex justify-around">
+                      <div className=" mr-2">
+                        <h1 style={{ color: "#6F6F6F" }}>
+                          <strike>25 €</strike>{" "}
+                          <span style={{ color: "#DEAB5B" }}>20 €</span>
+                        </h1>
+                      </div>
+                      <div className="flex">
+                        <h1>Added</h1>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="h-5 w-5"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          strokeWidth={2}
+                          class="h-8 w-8"
+                          viewBox="0 0 20 20"
+                          fill="rgba(222, 171, 91, 0.5)"
                         >
                           <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M20 12H4"
+                            fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clip-rule="evenodd"
                           />
                         </svg>
-                      </button>
-                      <button className="bg-white rounded-lg px-4 mr-2">
-                        1
-                      </button>
-                      <button className="bg-white rounded">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="h-5 w-5"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          strokeWidth={2}
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M12 4v16m8-8H4"
-                          />
-                        </svg>
-                      </button>
+                      </div>
+                      <div className="flex items-center">
+                        <button className="bg-white rounded mr-2">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M20 12H4"
+                            />
+                          </svg>
+                        </button>
+                        <button className="bg-white rounded-lg px-4 mr-2">
+                          1
+                        </button>
+                        <button className="bg-white rounded">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M12 4v16m8-8H4"
+                            />
+                          </svg>
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <details className="-mt-2 ml-4 md:ml-20 pb-1">
+                <details className="pb-1 -mt-4 pl-20 w-full ">
                   <summary>Info</summary>
-                  <p className="mb-2">
-                    “Relax has become my absolute favorite in a hectic everyday
-                    life! Lovely fragrance that provides a comfortable and
-                    relaxing atmosphere in my small house apartment.” - Theres
-                    B.
-                  </p>
-                  <h1 className="text-xl font-bold">
-                    Best use cases for Relax:
-                  </h1>
-                  <div className="px-2">
-                    <li>
-                      In the living room after a long day when you need to wind
-                      down.
-                    </li>
-                    <li>During challenging moments to redusce stress</li>
-                    <li>Before wine and dine with family and friends</li>
+                  <div className="grid grid-cols-2">
+                    <div className="">
+                      <p className="mb-2">
+                        “Relax has become my absolute favorite in a hectic
+                        everyday life! Lovely fragrance that provides a
+                        comfortable and relaxing atmosphere in my small house
+                        apartment.” - Theres B.
+                      </p>
+                      <h1 className="text-xl font-bold">
+                        Best use cases for Relax:
+                      </h1>
+                      <div className="px-2">
+                        <li>
+                          In the living room after a long day when you need to
+                          wind down.
+                        </li>
+                        <li>During challenging moments to redusce stress</li>
+                        <li>Before wine and dine with family and friends</li>
+                      </div>
+                    </div>
+                    <div className="">
+                      <h1>Ingredients:</h1>
+                      <div className="grid grid-cols-2 gap-2">
+                        <div className="flex">
+                          <img src={ylan} alt="" />
+                          <h1>Ylan Ylang Sweeet</h1>
+                        </div>
+                        <div className="flex">
+                          <img src={ylan} alt="" />
+                          <h1>Ylan Ylang Sweeet</h1>
+                        </div>
+                        <div className="flex">
+                          <img src={ylan} alt="" />
+                          <h1>Ylan Ylang Sweeet</h1>
+                        </div>
+                        <div className="flex">
+                          <img src={ylan} alt="" />
+                          <h1>Ylan Ylang Sweeet</h1>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </details>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 bg-gray-200 mt-8 rounded-lg">
-                <div className="flex py-2 px-4 ">
-                  <div className="">
-                    <img className="mr-4" src={energy} alt="" />
+              <div className="bg-gray-200 rounded-lg">
+                <div className="grid grid-cols-1 md:grid-cols-2 bg-gray-200 mt-8 rounded-lg">
+                  <div className="flex py-2 px-4 ">
+                    <div className="">
+                      <img className="mr-4 my-3" src={energy} alt="" />
+                    </div>
+                    <div className="">
+                      <h1>Energy Blend (15 ml)</h1>
+                      <h4>250 hours of aroma</h4>
+                    </div>
                   </div>
-                  <div className="">
-                    <h1>Energy Blend (15 ml)</h1>
-                    <h4>250 hours of aroma</h4>
-                  </div>
-                </div>
 
-                <div className="">
-                  <div className="flex justify-around">
-                    <div className=" mr-2">
-                      <h1 style={{ color: "#6F6F6F" }}>
-                        <strike>25 €</strike>{" "}
-                        <span style={{ color: "#DEAB5B" }}>20 €</span>
-                      </h1>
-                    </div>
-                    <div className="flex">
-                      <h1>Added</h1>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-8 w-8"
-                        viewBox="0 0 20 20"
-                        fill="rgba(222, 171, 91, 0.5)"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                          clip-rule="evenodd"
-                        />
-                      </svg>
-                    </div>
-                    <div className="flex items-center">
-                      <button className="bg-white rounded mr-2">
+                  <div className="my-6 pr-2">
+                    <div className="flex justify-around">
+                      <div className=" mr-2">
+                        <h1 style={{ color: "#6F6F6F" }}>
+                          <strike>25 €</strike>{" "}
+                          <span style={{ color: "#DEAB5B" }}>20 €</span>
+                        </h1>
+                      </div>
+                      <div className="flex">
+                        <h1>Added</h1>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="h-5 w-5"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          strokeWidth={2}
+                          class="h-8 w-8"
+                          viewBox="0 0 20 20"
+                          fill="rgba(222, 171, 91, 0.5)"
                         >
                           <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M20 12H4"
+                            fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clip-rule="evenodd"
                           />
                         </svg>
-                      </button>
-                      <button className="bg-white rounded-lg px-4 mr-2">
-                        1
-                      </button>
-                      <button className="bg-white rounded">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="h-5 w-5"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          strokeWidth={2}
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M12 4v16m8-8H4"
-                          />
-                        </svg>
-                      </button>
+                      </div>
+                      <div className="flex items-center">
+                        <button className="bg-white rounded mr-2">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M20 12H4"
+                            />
+                          </svg>
+                        </button>
+                        <button className="bg-white rounded-lg px-4 mr-2">
+                          1
+                        </button>
+                        <button className="bg-white rounded">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M12 4v16m8-8H4"
+                            />
+                          </svg>
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <details className="-mt-2 ml-4 md:ml-20 pb-1">
+                <details className="pb-1 -mt-4 pl-20 w-full ">
                   <summary>Info</summary>
-                  <p className="mb-2">
-                    “Relax has become my absolute favorite in a hectic everyday
-                    life! Lovely fragrance that provides a comfortable and
-                    relaxing atmosphere in my small house apartment.” - Theres
-                    B.
-                  </p>
-                  <h1 className="text-xl font-bold">
-                    Best use cases for Relax:
-                  </h1>
-                  <div className="px-2">
-                    <li>
-                      In the living room after a long day when you need to wind
-                      down.
-                    </li>
-                    <li>During challenging moments to redusce stress</li>
-                    <li>Before wine and dine with family and friends</li>
+                  <div className="grid grid-cols-2">
+                    <div className="">
+                      <p className="mb-2">
+                        “Relax has become my absolute favorite in a hectic
+                        everyday life! Lovely fragrance that provides a
+                        comfortable and relaxing atmosphere in my small house
+                        apartment.” - Theres B.
+                      </p>
+                      <h1 className="text-xl font-bold">
+                        Best use cases for Relax:
+                      </h1>
+                      <div className="px-2">
+                        <li>
+                          In the living room after a long day when you need to
+                          wind down.
+                        </li>
+                        <li>During challenging moments to redusce stress</li>
+                        <li>Before wine and dine with family and friends</li>
+                      </div>
+                    </div>
+                    <div className="">
+                      <h1>Ingredients:</h1>
+                      <div className="grid grid-cols-2 gap-2">
+                        <div className="flex">
+                          <img src={ylan} alt="" />
+                          <h1>Ylan Ylang Sweeet</h1>
+                        </div>
+                        <div className="flex">
+                          <img src={ylan} alt="" />
+                          <h1>Ylan Ylang Sweeet</h1>
+                        </div>
+                        <div className="flex">
+                          <img src={ylan} alt="" />
+                          <h1>Ylan Ylang Sweeet</h1>
+                        </div>
+                        <div className="flex">
+                          <img src={ylan} alt="" />
+                          <h1>Ylan Ylang Sweeet</h1>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </details>
+              </div>
+              <div className="bg-gray-200 rounded-lg">
+                <div className="grid grid-cols-1 md:grid-cols-2 bg-gray-200 mt-8 rounded-lg">
+                  <div className="flex py-2 px-4 ">
+                    <div className="">
+                      <img className="mr-4 my-3" src={energy} alt="" />
+                    </div>
+                    <div className="">
+                      <h1>Energy Blend (15 ml)</h1>
+                      <h4>250 hours of aroma</h4>
+                    </div>
+                  </div>
+
+                  <div className="my-6 pr-2">
+                    <div className="flex justify-around">
+                      <div className=" mr-2">
+                        <h1 style={{ color: "#6F6F6F" }}>
+                          <strike>25 €</strike>{" "}
+                          <span style={{ color: "#DEAB5B" }}>20 €</span>
+                        </h1>
+                      </div>
+                      <div className="flex">
+                        <h1>Added</h1>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="h-8 w-8"
+                          viewBox="0 0 20 20"
+                          fill="rgba(222, 171, 91, 0.5)"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <div className="flex items-center">
+                        <button className="bg-white rounded mr-2">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M20 12H4"
+                            />
+                          </svg>
+                        </button>
+                        <button className="bg-white rounded-lg px-4 mr-2">
+                          1
+                        </button>
+                        <button className="bg-white rounded">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M12 4v16m8-8H4"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <details className="pb-1 -mt-4 pl-20 w-full ">
+                  <summary>Info</summary>
+                  <div className="grid grid-cols-2">
+                    <div className="">
+                      <p className="mb-2">
+                        “Relax has become my absolute favorite in a hectic
+                        everyday life! Lovely fragrance that provides a
+                        comfortable and relaxing atmosphere in my small house
+                        apartment.” - Theres B.
+                      </p>
+                      <h1 className="text-xl font-bold">
+                        Best use cases for Relax:
+                      </h1>
+                      <div className="px-2">
+                        <li>
+                          In the living room after a long day when you need to
+                          wind down.
+                        </li>
+                        <li>During challenging moments to redusce stress</li>
+                        <li>Before wine and dine with family and friends</li>
+                      </div>
+                    </div>
+                    <div className="">
+                      <h1>Ingredients:</h1>
+                      <div className="grid grid-cols-2 gap-2">
+                        <div className="flex">
+                          <img src={ylan} alt="" />
+                          <h1>Ylan Ylang Sweeet</h1>
+                        </div>
+                        <div className="flex">
+                          <img src={ylan} alt="" />
+                          <h1>Ylan Ylang Sweeet</h1>
+                        </div>
+                        <div className="flex">
+                          <img src={ylan} alt="" />
+                          <h1>Ylan Ylang Sweeet</h1>
+                        </div>
+                        <div className="flex">
+                          <img src={ylan} alt="" />
+                          <h1>Ylan Ylang Sweeet</h1>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </details>
               </div>
