@@ -309,7 +309,7 @@ const Product = () => {
                     </div>
                   </div>
 
-                  <div className="my-6 pr-2">
+                  <div className="my-6 pr-2 px-4">
                     <div className="flex items-center justify-around">
                       <div className=" mr-2">
                         <h1 style={{ color: "#6F6F6F" }}>
