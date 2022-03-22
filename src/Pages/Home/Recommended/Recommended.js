@@ -4,13 +4,14 @@ import cosmopolitan from "./cosmopolitan.png";
 import ellie from "./ellie.png";
 import instyle from "./instyle.png";
 import instyleTwo from "./instyleTwo.png";
+import "./Recommended.css";
 import vogue from "./vogue.png";
 
 const Recommended = () => {
   return (
     <div className="my-12">
       <div className="w-11/12 mx-auto">
-        <h1 className="my-8 text-center font-semibold text-2xl">
+        <h1 className="my-8 text-center tested-title text-2xl">
           Tested and recommended by
         </h1>
         <div className="grid grid-cols-3  md:grid-cols-6 gap-8">

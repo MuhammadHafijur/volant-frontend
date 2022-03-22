@@ -1,0 +1,44 @@
+.friends-title {
+  font-family: "Hatton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 63px;
+  color: #000000;
+}
+
+.essential-oil-font {
+  font-family: "Hatton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.oil-subtitle {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+.oil-service-title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.fifty-off-font {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}

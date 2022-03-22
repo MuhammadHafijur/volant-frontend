@@ -8,3 +8,22 @@
   font-style: normal;
   font-weight: 400;
 }
+.offer-title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.offer-number {
+  font-family: "Hatton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 69px;
+  text-align: center;
+  color: #ffffff;
+}

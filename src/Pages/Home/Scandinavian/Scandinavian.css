@@ -2,14 +2,26 @@
   font-family: "Hatton";
 }
 
-.font-mulish {
+.scandinavia-para {
   font-family: "Mulish";
   font-style: normal;
   font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
 }
 
 .title {
   font-family: "Hatton";
   font-style: normal;
   font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.btn-font {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
 }

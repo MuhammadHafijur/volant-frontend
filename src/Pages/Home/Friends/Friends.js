@@ -1,4 +1,5 @@
 import React from "react";
+import "./Friends.css";
 import friends from "./friends.png";
 import imageOne from "./image-33.png";
 import imageTwo from "./image-34.png";
@@ -13,42 +14,53 @@ const Friends = () => {
       <div className="">
         <div className="w-11/12 mx-auto py-12 my-12 flex-none md:flex items-center">
           <div className="md:w-2/3">
-            <h1 className="text-5xl my-4 font-semibold">friends</h1>
+            <h1 className="my-4 friends-title ">friends</h1>
             <img src={friends} alt="" />
           </div>
           <div className="md:w-1/3">
             <div className="">
+              <div className="mb-8 px-8">
+                <h1 className="essential-oil-font">Volant Essential Oils</h1>
+                <p className="oil-subtitle">From organic plants to your home</p>
+              </div>
               <div className="flex items-center mb-8">
                 <img className="mr-8" src={imageOne} alt="" />
-                <p className="text-lg">Sourced ethically</p>
+                <p className="oil-service-title">Sourced ethically</p>
               </div>
               <div className="flex items-center mb-8">
                 <img className="mr-8" src={imageTwo} alt="" />
-                <p className="text-lg">Vegan and cruelty free</p>
+                <p className="oil-service-title">Vegan and cruelty free</p>
               </div>
               <div className="flex items-center mb-8">
                 <img className="mr-8" src={imageThree} alt="" />
-                <p className="text-lg">
+                <p className="oil-service-title">
                   Sourced in 35+ countries from all continents
                 </p>
               </div>
               <div className="flex items-center mb-8">
                 <img className="mr-8" src={imageFour} alt="" />
-                <p className="text-lg">100% pure and certified organic</p>
+                <p className="oil-service-title">
+                  100% pure and certified organic
+                </p>
               </div>
               <div className="flex items-center mb-8">
                 <img className="mr-8" src={imageFive} alt="" />
-                <p className="text-lg">Picked at peak ripeness</p>
+                <p className="oil-service-title">Picked at peak ripeness</p>
               </div>
               <div className="flex items-center mb-8">
                 <img className="mr-8" src={imageSix} alt="" />
-                <p className="text-lg">
+                <p className="oil-service-title">
                   Tested before, during and after distillation
                 </p>
               </div>
               <button
-                style={{ backgroundColor: "#DEAB5B" }}
-                className="block mx-auto items-center bg-yellow-600 border-0 py-2 md:py-3 px-12 md:px-24 focus:outline-none hover:bg-gray-200 rounded text-white text-base mt-4 md:mt-8"
+                style={{
+                  backgroundColor: "#DEAB5B",
+                  borderRadius: "5px",
+                  width: "354px",
+                  // height: "45px",
+                }}
+                className="block mx-auto items-center bg-yellow-600 border-0 py-1 md:py-3  focus:outline-none rounded fifty-off-font"
               >
                 GET 50% OFF
               </button>

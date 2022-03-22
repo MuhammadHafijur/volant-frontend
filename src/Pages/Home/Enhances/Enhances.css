@@ -1,11 +1,9 @@
-.font-mulish {
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 400;
-}
-
-.font-hatton {
+.enhance-title {
   font-family: "Hatton";
   font-style: normal;
   font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
 }

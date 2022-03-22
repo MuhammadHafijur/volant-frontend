@@ -3,3 +3,33 @@
   font-style: normal;
   font-weight: 400;
 }
+
+.save-font-title {
+  font-family: "Hatton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 76px;
+  text-align: center;
+  color: #000000;
+}
+
+.why-font {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+}
+
+.why-para {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
