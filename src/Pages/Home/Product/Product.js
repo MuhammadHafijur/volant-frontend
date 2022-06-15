@@ -100,7 +100,9 @@ const Product = () => {
                 <Carousel
                   data={data}
                   time={2000}
-                  width="850px"
+                  // width="850px"
+                  width="100%"
+                  // width="calc(100% - 20px)"
                   height="500px"
                   captionStyle={captionStyle}
                   radius="10px"

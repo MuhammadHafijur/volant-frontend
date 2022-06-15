@@ -1,0 +1,45 @@
+.feel-better-title {
+  font-family: "Hatton";
+  font-style: normal;
+  font-weight: 400;
+  /* font-size: 32px; */
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+}
+
+.feel-better-para {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  /* font-size: 22px; */
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
+
+.feel-better-btn {
+  width: 354px;
+  /* height: 45px; */
+  background: #deab5b;
+  border-radius: 5px;
+}
+.feel-better-btn-font {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  /* font-size: 24px; */
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.soyou-font {
+  font-family: "Hatton";
+  font-style: normal;
+  font-weight: 400;
+  /* font-size: 45px; */
+  line-height: 57px;
+  text-align: center;
+  color: #000000;
+}

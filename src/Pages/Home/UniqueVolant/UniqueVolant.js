@@ -1,17 +1,20 @@
-import React from "react";
+import fourDiff from "./4-diff.png";
 import award from "./award.png";
 import candles from "./candles.png";
 import ceramic from "./ceramic.png";
 import clock from "./clock.png";
-import "./Handmade.css";
 import home from "./home.png";
 import oils from "./oils.png";
 import scents from "./scents.png";
+import "./UniqueVolant.css";
 import volant from "./volant.png";
 
-const Handmade = () => {
+const UniqueVolant = () => {
   return (
-    <div>
+    <div
+      style={{ background: "rgba(255, 238, 223, 0.5)" }}
+      className="pt-8 pb-20"
+    >
       <div className="w-9/12 mx-auto">
         <h1 className="handmade-title my-16">
           Our Handmade, Designer Diffuser
@@ -73,8 +76,31 @@ const Handmade = () => {
           </div>
         </div>
       </div>
+      <div className="w-[90%] mx-auto mt-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center ">
+          <div className="mb-12 md:mb-0">
+            <img
+              className="object-cover object-center w-full lg:px-0"
+              alt="hero"
+              src={fourDiff}
+            />
+          </div>
+          <div className="px-4 lg:mx-14">
+            <p className="mb-8 md:mb-8 lg:mb-16 font-normal ceramic-para text-[24px] md:text-[28px] lg:text-[34px]">
+              <span className="font-bold ">A ceramic plate</span> inside our
+              diffuser vibrates 2.5 million times per second to break down the
+              essential oils and blend them perfectly with water.
+            </p>
+            <div className="flex justify-center">
+              <button className="inline-flex justify-center items-center h-[32px] lg:h-[45px] text-[20px] lg:text-[24px] feel-better-btn feel-better-btn-font border-0 focus:outline-none rounded ">
+                Get 50% off
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
 
-export default Handmade;
+export default UniqueVolant;

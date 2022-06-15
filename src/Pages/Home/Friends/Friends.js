@@ -1,4 +1,3 @@
-import React from "react";
 import "./Friends.css";
 import friends from "./friends.png";
 import imageOne from "./image-33.png";
@@ -12,13 +11,13 @@ const Friends = () => {
   return (
     <div>
       <div className="">
-        <div className="w-11/12 mx-auto py-12 my-12 flex-none md:flex items-center">
+        <div className="w-11/12 mx-auto py-12 my-12 md:flex items-center">
           <div className="md:w-2/3">
             <h1 className="my-4 friends-title ">friends</h1>
             <img src={friends} alt="" />
           </div>
           <div className="md:w-1/3">
-            <div className="">
+            <div className="mt-8 sm:mt-0">
               <div className="mb-8 px-8">
                 <h1 className="essential-oil-font">Volant Essential Oils</h1>
                 <p className="oil-subtitle">From organic plants to your home</p>
@@ -57,7 +56,7 @@ const Friends = () => {
                 style={{
                   backgroundColor: "#DEAB5B",
                   borderRadius: "5px",
-                  width: "354px",
+                  minWidth: "100%",
                   // height: "45px",
                 }}
                 className="block mx-auto items-center bg-yellow-600 border-0 py-1 md:py-3  focus:outline-none rounded fifty-off-font"

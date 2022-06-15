@@ -1,18 +1,19 @@
-.handmade-title {
-  font-family: "Hatton";
+.founder-name {
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 40px;
+  font-size: 22px;
+  line-height: 28px;
   text-align: center;
   color: #000000;
 }
 
-.handmade-para {
+.founder-title {
   font-family: "Mulish";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 16px;
   line-height: 20px;
+  text-align: center;
   color: #000000;
 }

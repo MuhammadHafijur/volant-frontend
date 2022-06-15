@@ -1,4 +1,3 @@
-import React from "react";
 import "./Banner.css";
 import banner from "./banner.png";
 import play from "./play.png";
@@ -25,7 +24,7 @@ const Banner = () => {
         <div className="hidden sm:block sm:inset-0 sm:absolute "></div>
 
         <div className="relative max-w-screen-xl px-4 md:py-32 mx-auto h-screen lg:h-screen lg:items-center  lg:flex">
-          <div className="max-w-xl ml-auto text-center sm:text-left">
+          <div className="max-w-xl absolute sm:relative top-8 ml-auto text-center sm:text-left">
             <h1 className="text-5xl md:text-[85px] banner-title  mx-auto  ">
               50% OFF
             </h1>

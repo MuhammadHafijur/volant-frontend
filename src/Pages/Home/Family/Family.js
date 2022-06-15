@@ -5,7 +5,7 @@ import family from "./family.png";
 const Family = () => {
   return (
     <div style={{ background: "#FFEEDF80" }} className="">
-      <div className="w-11/12 mx-auto py-16 my-12 flex-none md:flex items-center">
+      <div className="w-11/12 py-16 my-12 md:flex mx-auto items-center">
         <div className="md:w-1/3">
           <h1 className="family-title">
             with <br /> your <br /> family

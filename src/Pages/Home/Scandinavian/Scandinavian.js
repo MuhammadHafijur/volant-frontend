@@ -7,10 +7,10 @@ const Scandinavian = () => {
     <div style={{ background: "#FFEEDF80" }}>
       <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center">
         <div>
-          <img src={scandinavian} alt="" />
+          <img className="w-full" src={scandinavian} alt="" />
         </div>
         <div className="w-11/12 pb-12 sm-pb-0 md:w-9/12 mx-auto text-center">
-          <h1 className=" title text-center my-8">
+          <h1 className="  title text-center my-8">
             Beautiful Scandinavian Design
           </h1>
           <p className=" scandinavia-para mb-8">

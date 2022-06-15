@@ -17,7 +17,7 @@ const Video = () => {
           className="w-full h-[593px]"
           // width="560"
           // height="315"
-          src="https://www.youtube.com/embed/5C_HPTJg5ek"
+          src="https://www.youtube.com/embed/uY939VUw-ws"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
